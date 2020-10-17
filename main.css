@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAV BAR STYLING */
+nav{
+    font-family: 'Sansita Swashed', cursive,sans-serif;
+    font-weight: 500;
+    /* background-image:url("./navbgimg.jpg");  */
+    background: rgb(197,170,106);
+    background-repeat: no-repeat;
+    background-size: 92%; 
+    background-position: center;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+} 
+ul{
+    display: flex;
+    height: 3rem;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 450px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #7d1919;
+    font-size: 1.5rem;
+    
+}
+.nav{
+    display: flex;
+}
+/* nav logo styling */
+.nav .logo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #5ca2a9;
+    border-radius: 50px;
+    padding: 1px;
+    position:fixed; 
+}
+/* CONTENT STYLING */
+.dish1 .pizza{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.dish1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background:rgba(204, 204, 204, 0.4);
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+}
+h1{
+    color: blueviolet;
+    font-family: 'Sansita Swashed', cursive,sans-serif;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    color:rgba(255, 0, 0, 0.8);
+}
+button{
+    display:block;
+    background-color: rgba(255, 0, 0, 0.4);
+    border: 1px solid yellow;
+    margin: auto;
+    width: 115px;
+    padding: 3px; 
+  
+}
+.dish2 .pizza2{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.dish2{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background:rgba(204, 204, 204, 0.4);
+    width: 75%;
+    margin: auto;
+}
+.dish3 .pizza3{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.dish3{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background:rgba(204, 204, 204, 0.4);
+    width: 75%;
+    margin: auto;
+}
+.dish4 .pizza4{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 4px;
+}
+.dish4{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background:rgba(204, 204, 204, 0.4);
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2px;
+}
+.sides1, .sides2, .sides3, .sides4, .sides5, .sides6 {
+    width: 300px;
+    height: 200px;
+}
+.sides{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+figure{
+    background:rgba(204, 204, 204, 0.4);
+    margin-bottom: 3px;
+    border:2px solid #ffd900;
+    border-radius: 5px;
+}
+p{
+    width: 400px;
+}
+footer{
+    background-color: #222e3a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3{
+    color: #546273;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.media{
+    justify-content: center;
+}
+.facebook, .insta, .github{
+    height: 60px;
+    width: 60px;
+    border: 2px rgba(0, 0, 0, 0.3);
+    border-radius:3px ;
+    margin: 3px;
+}
+@media screen and (max-width:400px){
+ 
+    ul{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 7rem;
+        align-items: center;
+        width: 100px;
+        border-bottom: 2px solid black;
+    } 
+    header{
+        background: rgb(197,170,106);
+    }
+    .nav .logo{
+        width: 50px;
+        height: 50px;
+        background: rgb(197,170,106);
+        position: absolute;
+    } 
+    .dish1, .dish2, .dish3, .dish4{
+        width: 105%;
+        margin-left: 35px;
+        overflow: scroll;
+    }
+    .sides{
+        margin-left: 85px;
+    }
+    footer{
+        width: 152%;
+    }
+}
+@media screen and (max-width:500px){
+    ul{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 7rem;
+        align-items: center;
+        width: 100px;
+        background: rgb(197,170,106);
+        border-bottom: 2px solid black;
+    }
+    .nav .logo{
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        padding: 0;
+    } 
+}
+@media screen and (max-width:600px){
+    ul{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 7rem;
+        align-items: center;
+        width: 100px;
+        background: rgb(197,170,106);
+        border-bottom: 2px solid black;
+        justify-content: space-around;
+    }
+    .nav .logo{
+        width: 90px;
+        height: 90px;
+        padding: 0;
+    } 
+}
+@media screen and(max-width:700px){
+    ul{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+.facebook, .insta, .github{
+    margin-right: 15px;
+    border-right: 2px black solid;
+    padding-right: 3px;
+    border-radius: 0;
+}
+.github{
+    border-right: none;
+}
